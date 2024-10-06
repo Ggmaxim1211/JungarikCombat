@@ -1,0 +1,66 @@
+<!DOCTYPE html>4
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jungarik Combat Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="next-hamster-info" class="next-hamster-info">JC to next hamster: 1000</div>
+  <h1 class="game-title">Jungarik Combat Clicker</h1>
+
+  <!-- Display total JC and JC per minute at the top left -->
+  <div id="total-jc" class="total-jc">Total JC: 0</div>
+  <div id="jc-per-minute" class="jc-per-minute">JC per Minute: 0</div>
+
+  <div class="game-container">
+    <img src="hamsster.png" id="hamster-image" alt="Hamster">
+    <!-- Display for remaining JC to next hamster upgrade -->
+
+
+    <!-- Button to open/close upgrade menu -->
+    <button id="menu-button" class="menu-button">Upgrades</button>
+    <!-- Display the current JC value -->
+    <div id="current-jc" class="current-jc">JC: 0</div>
+
+
+    <!-- Upgrade menu, initially hidden -->
+    <div id="upgrade-menu" class="upgrade-menu" style="display: none;">
+      <h2>Upgrades</h2>
+      <div class="upgrade-column">
+        <button id="upgrade-1">Upgrade 1 (+5 per tap, cost 50)</button>
+        <button id="upgrade-2">Upgrade 2 (+10 per tap, cost 250)</button>
+        <button id="upgrade-3">Upgrade 3 (+25 per tap, cost 1000)</button>
+        <button id="upgrade-4">Upgrade 4 (+250 per tap, cost 5000)</button>
+        <button id="upgrade-5">Upgrade 5 (+500 per tap, cost 10,000)</button>
+        <button id="upgrade-6">Upgrade 6 (+1000 per tap, cost 50,000)</button>
+        <button id="upgrade-7">Upgrade 7 (+5000 per tap, cost 100,000)</button>
+        <button id="upgrade-8">Upgrade 8 (+10,000 per tap, cost 500,000)</button>
+        <button id="upgrade-9">Upgrade 9 (+25,000 per tap, cost 1,000,000)</button>
+        <button id="upgrade-10">Upgrade 10 (+75,000 per tap, cost 5,000,000)</button>
+        <button id="upgrade-11">Upgrade 11 (+250,000 per tap, cost 10,000,000)</button>
+        <button id="upgrade-12">Upgrade 12 (+500,000 per tap, cost 50,000,000)</button>
+        <button id="upgrade-13">Upgrade 13 (+1,000,000 per tap, cost 100,000,000)</button>
+        <button id="upgrade-14">Upgrade 14 (+5,000,000 per tap, cost 500,000,000)</button>
+        <button id="upgrade-15">Upgrade 15 (+10,000,000 per tap, cost 1,000,000,000)</button>
+
+        <!-- JC per minute upgrades -->
+        <button id="upgrade-16">JC/min Upgrade 1 (+1000 JC/min, cost 500,000)</button>
+        <button id="upgrade-17">JC/min Upgrade 2 (+5000 JC/min, cost 1,000,000)</button>
+        <button id="upgrade-18">JC/min Upgrade 3 (+10,000 JC/min, cost 5,000,000)</button>
+        <button id="upgrade-19">JC/min Upgrade 4 (+25,000 JC/min, cost 10,000,000)</button>
+        <button id="upgrade-20">JC/min Upgrade 5 (+50,000 JC/min, cost 20,000,000)</button>
+        <button id="upgrade-21">JC/min Upgrade 6 (+100,000 JC/min, cost 50,000,000)</button>
+        <button id="upgrade-22">JC/min Upgrade 7 (+500,000 JC/min, cost 100,000,000)</button>
+        <button id="upgrade-23">JC/min Upgrade 8 (+1,000,000 JC/min, cost 500,000,000)</button>
+      </div>
+    </div>
+
+    <!-- Display the click counter -->
+    <div id="click-counter" class="click-counter">JC: 0</div>
+  </div>
+
+  <script src="scrypt.js"></script>
+</body>
+</html>
