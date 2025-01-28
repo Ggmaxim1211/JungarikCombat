@@ -1,5 +1,5 @@
 let clickCount = 0;
-let clickValue = 100000;
+let clickValue = 1;
 let everclicked = 0;
 let jcPerMinute = 0; // JC per minute variable
 let totalJC = 0;     // Total JC collected
